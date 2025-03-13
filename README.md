@@ -7,8 +7,8 @@ This project is a RESTful API for a simple task management system built with Dja
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your_repository_url>
-    cd task_manager
+    git clone git@github.com:rique/task_management_system.git
+    cd task_management_system
     ```
 
 2.  **Build and run the Docker containers:**
@@ -37,7 +37,7 @@ This project is a RESTful API for a simple task management system built with Dja
 
 ## Key Implementation Decisions
 
-* **Django REST Framework:** Chosen for its robust API development capabilities and built-in features like serializers and generic views.
+* **Django REST Framework:** Chosen for its API development capabilities and built-in features like serializers and generic views.
 * **SQLite:** Used for simplicity and ease of setup in a development environment.
 * **JWT Authentication (Simple JWT):** Implemented for secure API authentication.
 * **Dockerization:** Used to containerize the application and simplify setup.
